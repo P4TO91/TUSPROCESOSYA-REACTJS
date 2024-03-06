@@ -1,0 +1,29 @@
+.footer{
+    height: 30vh;
+    overflow: hidden;
+}
+
+.CorteSupremaJusticia {
+    width: 100%;
+    max-width: none;
+    height: 100%; /* Cambiado a 100% para ocupar toda la altura disponible */
+    margin: 0;
+    padding-bottom: 0;
+}
+
+
+.texto-encima-footer {
+    position: relative; /* Comentado o eliminado */
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    color: #333;
+    padding: 5px;
+    z-index: 1;
+    width: 100%;
+    text-align: justify;
+    height: max-content;
+    padding-bottom: 0px;
+    font-size: 14px;
+}

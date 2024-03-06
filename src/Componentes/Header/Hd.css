@@ -1,0 +1,53 @@
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 20vh;
+    overflow: hidden;
+ 
+}
+
+.nav-rectangulo {
+    box-shadow: 0px 0px 1px 2px #555 !important;
+    padding: 20px !important; /* Ajustar el espacio alrededor del contenido */
+    border: 5px !important; 
+    display: flex !important; /* Usar flexbox para centrar verticalmente */
+    height: 70px !important; /* Altura deseada del rectángulo */
+    width: 370px;
+    position:relative;
+   
+    
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+    gap: 30px;
+}
+
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.escudo {
+    float: left;
+    max-width: 150px;
+    margin-right: 150px;
+    margin-top: -3%;
+}
+
+.CSJ {
+    float: right;
+    max-width: 370px;
+    margin-top: -4%;
+
+
+ 
+}
+
+
